@@ -50,7 +50,7 @@ dependencies {
     compile files('libs/httpcomponents-client-4.1/lib/commons-codec-1.4.jar')
     compile files('libs/httpcomponents-client-4.1/lib/commons-logging-1.1.1.jar')
     compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.google.android.gms:play-services-base:10.0.1'
+    //compile 'com.google.android.gms:play-services-base:10.0.1'
     compile 'com.google.firebase:firebase-messaging:10.0.1'
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.android.support:design:25.0.1'
