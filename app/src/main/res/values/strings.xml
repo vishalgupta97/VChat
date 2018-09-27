@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">CogDemo</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sync">Sync Contacts</string>
+    <string name="GPSAlertDialogMessage">Please ensure location</string>
+    <string name="cancel">cancel</string>
+    <string name="sinch_app_key">1da348ab-34eb-444a-b847-46bef6d99c08</string>
+    <string name="sinch_app_secret">n/Ynxs0JK0eFF1K53+rWiQ==</string>
+
+
+</resources>

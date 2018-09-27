@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmain"
+    tools:context="com.vishal.vchat.activity.CognalysActivity" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/grav" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:phoneNumber="true"
+        android:hint="Number"
+        android:inputType="phone"
+        android:layout_above="@+id/test"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginBottom="22dp">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/Name"
+        android:layout_marginBottom="13dp"
+        android:hint="Name"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true" >
+        <requestFocus />
+        </EditText>
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_marginBottom="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1" />
+
+</RelativeLayout>

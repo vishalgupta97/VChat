@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity" >
+
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="100"
+        android:title="@string/sync"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/showDB"
+        android:orderInCategory="101"
+        android:title="Show DB"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/newGroup"
+        android:orderInCategory="102"
+        android:title="New Group"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/addContact"
+        android:orderInCategory="102"
+        android:title="Add Contact"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp" android:paddingLeft="5dp"
+    android:paddingRight="5dp" android:paddingTop="5dp">
+
+
+    <TextView
+        android:text="Calling .... "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/callmessage"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:text="Accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_accept"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp" />
+    <Button
+        android:text="Reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_reject"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentTop="true"
+       android:layout_marginLeft="200dp" />
+</RelativeLayout>
